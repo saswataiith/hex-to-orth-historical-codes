@@ -1,0 +1,4 @@
+binorder
+*.o
+runs/
+.DS_Store
