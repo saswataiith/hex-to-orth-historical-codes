@@ -1,0 +1,10 @@
+{
+  "grid": [
+    32,
+    32
+  ],
+  "steps": 100,
+  "mean_drift": 3.885780586188048e-16,
+  "all_fields_finite": true,
+  "noise_schedule": "Original evolve12.c schedule retained, including count zero"
+}
