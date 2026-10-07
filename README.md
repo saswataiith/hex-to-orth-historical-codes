@@ -31,6 +31,10 @@ The recorded GSL check used 32² points, 100 steps, seed −494 and timestep 0.0
 
 The original moment utility is `original/Codes/utils/calc_singleppt.c`; the GSL copy is `gsl/utils/calc_singleppt.c`. The Julia repository documents the centroid and spacing corrections explicitly.
 
-Strains and composition are dimensionless. Other values use the thesis nondimensionalization; no SI calibration is inferred from the recovered parameter files. No new licence is applied to the historical archive.
+Strains and composition are dimensionless. Other values use the thesis nondimensionalization; no SI calibration is inferred from the recovered parameter files. My own public source is available under MIT; see [licence scope](LICENSING.md).
 
 I also compiled and ran the public GSL copy on macOS after preparing this repository. `docs/public-gsl-run.json` reports finite fields and a saved composition mean drift of 3.9e−16 between counts 0 and 100. The retained historical loop advances once more after saving count 100; this extra unsaved update is documented rather than removed from the recovered version.
+
+## Using my code
+
+My original source is available under MIT. See [licence scope and dependency terms](LICENSING.md) and the [licence](LICENSE).
